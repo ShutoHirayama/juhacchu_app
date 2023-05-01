@@ -19,7 +19,7 @@ return new class extends Migration
             $table->integer('price');
             $table->string('explain')->nullable();
             $table->string('image');
-            $table->string('order_condition');
+            $table->string('order_condition')->nullable();
             $table->integer('item_num');
             $table->integer('stock');
             $table->timestamps();
